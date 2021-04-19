@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".SplashActivity">
+
+    <LinearLayout
+            android:id="@+id/linearLayoutV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FEFEFE"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/ivSplashScreen"
+                android:layout_width="402dp"
+                android:layout_height="480dp"
+                android:layout_gravity="center"
+                android:src="@drawable/depositphotos_64025171_stock_illustration_shopping_list_and_basket_with"
+                app:srcCompat="@drawable/depositphotos_64025171_stock_illustration_shopping_list_and_basket_with" />
+
+        <TextView
+                android:id="@+id/textSplashScreebrokn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/carme"
+                android:text="ShoppingList"
+                android:textColor="#3b3c5b"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

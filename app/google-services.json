@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286929758052",
+    "project_id": "shoppinlist-b39db",
+    "storage_bucket": "shoppinlist-b39db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286929758052:android:d34caae3fcd7d9271f3c71",
+        "android_client_info": {
+          "package_name": "com.aportillo.shoppinglistkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286929758052-uta097tomi35fesbf3ck3ap3chpi572o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXzI5IW-1eEZP3H5ODLxLffXbhuJm4kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286929758052-uta097tomi35fesbf3ck3ap3chpi572o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

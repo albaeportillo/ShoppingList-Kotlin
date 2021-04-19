@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#F4F5F6"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:id="@+id/ivCategory"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginRight="170dp"
+                card_view:srcCompat="@drawable/icon_food" />
+
+        <CheckBox
+                android:id="@+id/cbStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:buttonTint="#2c2c4b"
+                android:text="@string/purchased"
+                android:textColor="#2c2c4b" />
+
+    </LinearLayout>
+        <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+        <TextView
+                android:id="@+id/tvItemDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        <TextView
+                android:id="@+id/tvItemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        <TextView
+                android:id="@+id/tvItemQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="34dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="250dp"
+                android:text="@string/edit_string"
+                android:background="#f03733"
+                android:enabled="false"
+                android:fontFamily="@font/carme"
+                android:textColor="@color/colorWhite" />
+
+        <Button
+
+                android:id="@+id/btnDelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

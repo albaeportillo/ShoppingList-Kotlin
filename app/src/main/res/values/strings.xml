@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="add_click_hint">Click aqui para agregar los items a tu lista de compra</string>
+    <string name="add_item">Agregar item</string>
+    <string name="tag_item">TAG_ITEM</string>
+    <string name="quantity">Cantidad: %1$s</string>
+    <string name="edit_item_dialog">EDIT_ITEM_DIALOG</string>
+    <string name="key_open">KEY_WAS_OPEN</string>
+    <string name="total_cost">Costo total: $%1$s</string>
+    <string name="item_price">Precio del item: $%1$s</string>
+    <string name="item_handler_error">The activity does not implement the ItemHandlerInterface</string>
+    <string name="item_name"> Item Nombre: %1$s</string>
+    <string name="item_name_holder"> Item Nombre</string>
+    <string name="item_description_holder"> Item Descripcion</string>
+    <string name="item_price_holder"> Item Precio</string>
+    <string name="item_quantity_holder"> Item Cantidad</string>
+    <string name="item_category">Categoria</string>
+    <string name="ok">OK</string>
+    <string name="new_item">Nuevo item</string>
+    <string name="edit_item">Editar item</string>
+    <string name="category_food">"Categoria: Comida"</string>
+    <string name="category_clothing">"Categoria: Ropa"</string>
+    <string name="category_electronics">"Categoria: Electronicos"</string>
+    <string name="category_household">"Categoria: Hogar"</string>
+    <string-array name="item_categories">
+        <item>Comida</item>
+        <item>Ropa</item>
+        <item>Electronicos</item>
+        <item>Hogar</item>
+    </string-array>
+    <string name="item_description">Item Descripcion: %1$s</string>
+    <string name="edit_string">Editar</string>
+    <string name="delete_all">Eliminar Todos</string>
+    <string name="purchased">Comprado</string>
+    <string name="total_cost_initial">Costo Total: $0.00</string>
+    <string name="format_string">%.2f</string>
+    <string name="key_item_to_edit">KEY_ITEM_TO_EDIT</string>
+    <string name="empty_name">Nombre no puede ser un campo vacio</string>
+    <string name="empty_description">Descripcion no puede ser un campo vacio</string>
+    <string name="empty_price">Precio no puede ser un campo vacio</string>
+    <string name="small_price">El precio del item debe ser mayor que $0.00</string>
+    <string name="empty_quantity">El campo cantidad no puede estar vacio</string>
+    <string name="small_quantity">La cantidad por item debe ser al menos 1</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_login">ShoppingList</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_register_in">Registrarse</string>
+    <string name="action_sign_in_short">Iniciar sesion</string>
+    <string name="welcome">"Bienvenido!"</string>
+    <string name="register">"Has sido registrado!"</string>
+    <string name="invalid_username">No es un usuario valido</string>
+    <string name="invalid_password">Contraseña debe ser >5 caracteres</string>
+    <string name="login_failed">"Fallo inicio de sesion"</string>
+    <string name="complete_fields">"Debe llenar el correo y contraseña"</string>
+    <string name="share">"Compartir"</string>
+    <string name="share_chooser_title">"Compartir lista de compras"</string>
+</resources>

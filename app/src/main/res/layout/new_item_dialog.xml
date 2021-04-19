@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Spinner
+            android:id="@+id/spinnerItemCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/etItemName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/carme"
+            android:hint="@string/item_name_holder" />
+
+    <EditText
+            android:id="@+id/etItemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/carme"
+            android:hint="@string/item_description_holder" />
+
+    <EditText
+            android:id="@+id/etItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/carme"
+            android:hint="@string/item_price_holder"
+            android:inputType="numberDecimal" />
+
+    <EditText
+            android:id="@+id/etItemQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/carme"
+            android:hint="@string/item_quantity_holder"
+            android:inputType="number" />
+
+</LinearLayout>
